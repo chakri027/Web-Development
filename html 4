@@ -1,0 +1,62 @@
+!doctype html>
+<html>
+	<head>
+		<title>BankDetails</title>
+	</head>
+	<body>
+		<center>
+		<h1>Bank details</h1>
+    </center>
+		<b>
+		<label>Name</label>
+		<input type='text'></input><br><br>
+		<label>Username</label>
+		<input type='text'></input><br><br>
+		<label>Password</label>
+		<input type='password'></input><br><br>
+		<label>AccNumber</label>
+		<input type='text'></input><br><br>
+		<label>Bank Name</label>
+		<select>
+			<option>State Bank of India</option>
+			<option>Punjab National bank</option>
+			<option>Canara Bank</option>
+			<option>ICICI Bank</option>
+		</select>
+		<br><br>
+		<label>AccType</label>
+		<select>
+			<option>Savings</option>
+			<option>Current</option>
+		</select>
+		<br><br>
+		<label>State</label>
+		<select>
+			<option>TS</option>
+			<option>AP</option>
+			<option>KA</option>
+			<option>KS</option>
+			<option>TN</option>
+			<option>MH</option>
+		</select>
+		<br><br>
+        <label>E Mail id:</label>
+		<input type='text'></input><br>
+        <p>Select Gender:</p>
+		<input type='radio' name='a'></input>
+		<label>Male</label><br><br>
+		<input type='radio' name='a'></input>
+		<label>Female</label><br><br>
+		<input type='radio' name='a'></input>
+		<label>Others</label><br><br>
+		<input type='checkbox'></input>
+		<label>Select terms and Conditions</label><br><br>
+		<input type='button' value='submit'>
+		</b>
+		
+	</body>
+</html>
+		
+		
+			
+			
