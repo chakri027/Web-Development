@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            I Frames
+        </title>
+    </head>
+        <body>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d974399.3967973333!2d77.22775884687502!3d17.447857300000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93de54da5541%3A0xcf5f9b0e3ed641d0!2sNS%20Software%20Technologies!5e0!3m2!1sen!2sin!4v1719211829474!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <p>And here's an example of embedding a YouTube video:</p>
+            
+                me<iframe width="560" height="315" src="https://www.youtube.com/embed/cS0TG1iksLM?si=Rlb9-hJB6P-Lo-T2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </body>
+  
+</html>
+                
