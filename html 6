@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+       <h1>Anchor Tag</h1>
+    </head>
+    <body>
+        <a href="https://www.espncricinfo.com/cricket-fixtures"target="_blank">Live Match Scores</a>
+    <p>if The URL Link is blue and underlined means-Unvisited Limk</p>
+    <p>if The URL Link is violet and underlined means-Opened Link</p>
+    <p>if The URL Link is red and underlined means-Active Link</p>
+    <a href="https://react.dev/"target="_blank">About React</a> <br><br>
+    <a href="https://www.geeksforgeeks.org/html-tutorial/"target="_blank">Html Tutorials</a>
+    </body>
+    <h1>Image Tag</h1>
+    <img src="https://tse2.mm.bing.net/th?id=OIP.gLqMIt7OSMdGMOxgGMUiMwHaC5&pid=Api&P=0&h=180" alt="react"width="600"height="300"><br>
+    
+    <h1>Adding image from folder</h1>
+    <img src="./donald.jpg" alt="donald duck"width="250" height="250">
+</html>
