@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+            orderlist & unoredrlist
+        </title>
+        </head>
+        <body>
+                <ul>
+                <h1> mobiles </h1>
+                <li> Iphone </li>
+                <li> Oneplus </li>
+                <li> Samsung </li>
+                <li>  Nokia </li>
+                <li> Moto </li>
+
+                </ul>
+                <ol>
+                    <h1> Laptops </h1>
+                    <li> Macbook </li>
+                    <li> acer </li>
+                    <li> hp </li>
+                    <li>  dell </li>
+                    <li> lenovo </li>
+    
+                </ol>
+            </body>
+    </html>
