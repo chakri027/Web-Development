@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width,intial-scale=1">
+        <title>
+            Page Formation
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                font-family: "Caveat", cursive;
+                font-weight: 700 ;
+            }
+            header{
+                background-color: lightcoral;
+                padding: 0.5%;
+                text-align: center;
+                font-size: 25px;
+            }
+            nav{
+                float: left;
+                width: 30%;
+                height: 350px;
+                background-color:rgb(118, 197, 116) ;
+                padding: 20px;
+            }
+            nav ul{
+                list-style-type: none;
+                padding: 0;
+            }
+            ul a{
+                    color: black;
+                    text-decoration: none;
+                    text-transform: capitalize;
+            }
+            article{
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color: aqua;
+                height: 350px;
+            }
+            section::after{
+                content: " ";
+                display: table;
+                clear: both;
+            }
+            footer{
+                background-color: yellowgreen;
+                padding: 10px;
+                text-align: center;
+            }
+         @media(max-width:600px) {
+        nav,article{
+                width: 100px;
+                height: auto;
+            }
+            
+         }  
+            
+        </style>
+    </head>
+    <body>
+       <h2>Russia</h2>
+       <p>Russia,[b] or the Russian Federation,[c] is a country spanning Eastern Europe and North Asia. It is the largest country in the world by area, extending across eleven time zones and sharing land borders with fourteen countries.[d] It is the world's ninth-most populous country and Europe's most populous country. Russia is a highly urbanized country including 16 population centers with over a million inhabitants. Its capital as well as its largest city is Moscow. Saint Petersburg is Russia's second-largest city and its cultural capital.</p>
+       <header>
+        <h2>visiting places</h2>
+       </header1>
+       <section>
+        <nav>
+            <ul>
+                <li><a href="#"></a>lake baikal</li>
+                <li><a href="#"></a>Moscow</li>
+                <li><a href="#"></a>Sochi</li>
+                <li><a href="#"></a> St.Petersberg</li>
+                <li><a href="#"></a>Altai</li>            
+            </ul>
+        </nav>
+        <article>
+            <h3>lake baikal</h3>
+      <p>
+        When it comes to breaking records, Lake Baikal is hard to beat. This massive high-altitude rift lake in Siberia is the oldest and deepest lake in the world–reaching a maximum depth of 1,642 meters and an estimated 25 million years of age. Baikal is also the largest freshwater lake in the world–over 20 percent of the world's freshwater is in this lake.
+
+Although Lake Baikal is considered one of the clearest lakes in the world.
+<p>
+    For about a month around August, the lake's water temperature can reach around 16 degrees Celsius, making it suitable for quick dips or short swims. During the rest of the year, however, it usually stays under five degrees Celsius.
+</p>
+      </p>
+    </article>
+       </section>
+    </body>
+</html>
