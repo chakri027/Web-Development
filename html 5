@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Prase Tags
+        </title>
+    </head>
+    <body>
+        <p>this stands for<abbr title="world wide web">www</abbr>for searching anything in google</p>
+        <p>mark tag<mark>highlighted with yellow background</mark></p>
+        <p>strong tag<strong>text will come in bold</strong></p>
+        <p>emphesized<em>italic font</em></p>
+        <p><dfn>css</dfn> for styling the webpage</p>
+        <p><q>js</q>used for interactive webpages</p>
+        <code>
+            function code()<br>{<br>
+            console.log("hello world");<br>}
+        </code>
+        <p>press<kbd>ctrl</kbd>+
+        <kbd>shift</kbd>+R</p>
+        <p>for recording screen in windows</p>
+        <address>
+            visit us:Hitech city,Madhapur<br>
+            contact us:91 1234567890,<br>
+            email:info@gmail.com
+        </address>
+    </body>
+</html>
