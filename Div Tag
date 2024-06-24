@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Div Tag
+        </title>
+        <style>
+            div{
+
+                background-color: rgb(145, 145, 237);
+                border: 2px solid rgb(255, 0, 234);
+                width:200px ;
+                height: 90px ;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Div tag
+        </h1>
+        <p>Div Tag</p>
+        <div>
+            this is Div Tag
+        </div>
+        <h2>class</h2>
+        <div class="one">this is class</div>
+    </body>
+</html>
