@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Audio with html
+        </title>
+    </head>
+    <body>
+        <audio controls autoplay><!--here in controls autoplay is used to play the audio file automatically with out changing manually-->
+            <source src="horse.mp3" type="audio/mpeg">
+          <!--similar to video file here if we want to play the audio file then that audio file must and should have in our storage-->
+          </audio>
+          
+    </body>
+</html>
