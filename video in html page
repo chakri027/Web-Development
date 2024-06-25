@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            video in html Page
+        </title>
+        <link rel="stylesheet" href="style.css"/>
+        </head>
+        <body>
+            <h1 class="title">video</h1>
+               <video width="320" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4"><!--here the video must have in your server which isthe src have the video root then we can play the video-->
+               </video>
+        </body>
+        <body>
+            <h1 class="title">youtube video</h1>
+                <iframe width="420" height="345" src="https://www.youtube.com/embed/NBfGWLPiM0I">
+                </iframe><!--here if want to choosse the video from youtube then we should choose the iframe tag-->
+        </body>   
+</html>
