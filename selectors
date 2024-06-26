@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+            Selectors
+        </title>
+              <link rel="stylesheet" href="./style.css">
+        <style>
+            h1{
+                color: aqua;
+                border: 4px black double;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: xx-large;
+                text-align: center;
+            }
+            p{font-style: italic;
+            color: blue; 
+
+            }
+            .sim{
+                color: cadetblue;
+                background-color: cornsilk;
+                border: dashed;
+                width: 600px;
+            }
+            #ids{
+                color: brown;
+                background-color: burlywood;
+                border: inset;
+
+            }
+            h4{
+                color: burlywood;
+                background-color: rgb(127, 103, 8);
+                border: dashed;
+                width: 600px;
+            }
+            h5{
+                color:rgb(44, 75, 13);
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Selectors </h1>
+        <h2 class="sim"> simple selectors</h2>
+        <p> A CSS selector selects the HTML element(s) you want to style.</p>
+        <h3 id="ids">id selector</h3>
+        <h4> combined selector</h4>
+        <h5> combined selector</h5>
+    </body>
+</html>
