@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .hero,
+            .about,
+            .services,
+            .contact
+            {
+                max-width: 1000px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+
+        </style>
+    </head>
+    <div class="header">
+        <h2 class="logo">freeCodeCamp</h2>
+  
+        <ul class="nav">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Serices</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+</html>
