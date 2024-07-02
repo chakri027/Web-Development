@@ -1,0 +1,129 @@
+<!doctype html>
+<html> 
+    <head>
+        <style>
+        *{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+        }
+        .hero,
+        .about,
+        .services,
+        .contact
+        {
+            max-width: 1000px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        .header {
+                    padding: 0 70px;
+                    display: flex;
+                    align-content: center;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    }
+
+            .nav {
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                gap: 60px;
+                list-style-type: none;
+                }
+
+            .nav li a {
+                text-decoration: none;
+                color: black;
+                font-size: 1.2rem;
+                }
+            .hero {
+                background-color: #eee;
+                height: 200px;
+                }
+
+            .hero h1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 6;
+                background-color: aqua;
+                }
+
+            .about {
+                background-color: #eee;
+                height: 200px;
+                }
+
+            .about h1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 6;
+                background-color: orchid;
+                }
+
+            .services {
+                background-color: #eee;
+                height: 200px;
+                }
+
+            .services h1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 6;
+                background-color: lightcoral;
+                }
+
+            .contact {
+                background-color: #eee;
+                height: 200px;
+                }
+
+            .contact h1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 6;
+                }
+
+            .footer {
+                background-color: #777;
+                height: 40px;
+                }
+
+            .footer p {
+                margin: 0 auto;
+                line-height: 1.7;
+                }
+</style>
+
+      <ul class="nav">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Serices</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+</div>
+<div class="hero">
+      <h1>Hero Section</h1>
+</div>
+<div class="about">
+      <h1>About Us</h1>
+</div>
+<div class="services">
+      <h1>Our Services</h1>
+</div>
+<div class="contact">
+      <h1>Contact Us</h1>
+</div>
+<div class="footer">
+      <p>&copy; 2021 All Rights Reserved</p>
+</div>
+        </style>
+    </head>
+
+    
+</html>
