@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <body>
+        <b><h3>Example of Submit and Reset Button</h3>
+            <form action="test.php" method="post" id="users">
+                <label for="users">User Name</label>
+                <input type="text" name="username" id="username">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </b>
+        
+    </body>
+</html>
