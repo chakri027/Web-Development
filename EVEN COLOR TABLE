@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<h2>EVEN Striped Table</h2>
+<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+<table>
+  <tr>
+  <th>S.NO</th>
+  <th>Name</th>
+  <th>Points</th>
+  </tr>
+  <tr>
+  <td>1.</td>
+  <td>HIRAN</td>
+  <td>90</td>
+  </tr>
+  <tr>
+  <td>2.</td>
+  <td>KRITI</td>
+  <td>75</td>
+  </tr>
+  <tr>
+  <td>3.</td>
+  <td>SANJANA</td>
+  <td>78</td>
+  </tr>
+  <tr>
+  <td>4.</td>
+  <td>SOREN</td>
+  <td>87</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
