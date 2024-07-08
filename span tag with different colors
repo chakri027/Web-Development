@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Optimus span tag</title>
+</head>
+
+<body>
+  <center>
+    
+    <!-- span tags with inline style/css  -->
+    <span style="background-color:powderblue;  font-weight: bold;
+            font-size: 26px;;">
+        Optimus
+     </span>
+     <span style="background-color: lightgray; font-weight: bold;
+            font-size: 26px;">
+         -Contribute-
+     </span>
+     <span style="background-color: yellow; font-weight: bold;
+            font-size: 26px;">
+         Article
+     </span>
+     <span style="background-color: lightgreen; font-weight: bold;
+            font-size: 26px;">
+         GCET
+     </span>
+  </center>
+</body>
+
+</html>
