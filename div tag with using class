@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Div Tag</title>
+</head>
+
+<body>
+    <center>
+        <div style="height:300px; 
+                    width:500px; color:rgb(98, 193, 63);
+                    border:1px solid; 
+                    background-color: 009900;">
+            <!--open tag of Div!-->
+            <caption>
+                <h1>GEEKSFORGEEKS</h1>
+            </caption>
+            <h1>Inline CSS is USED in THIS method.
+                In this div no class is used.
+            </h1>
+        </div>
+        <!--closing tag of Div!-->
+    </center>
+</body>
+
+</html>
