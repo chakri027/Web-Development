@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <STYLE>
+            H1{
+                border: 2Px ;
+                background-color: aqua;border-style: dashed;
+
+            }
+            marquee{
+                font-size: 20px;
+                border: 2px;
+                background-color: chartreuse;
+                padding: 2px;
+            }
+        </STYLE>
+        <b>
+           <CENter>
+            <H1>
+                SCROLING TAG
+            </H1>
+           </CENter>
+        </b>
+    </head>
+    <BODY>
+       <center>
+        <marquee
+          direction=""
+          width="650"
+          height="45
+          "
+          behavior="left-right"
+          style="border:solid">
+          <marquee>This text will scroll from right to left</marquee>
+          
+        </marquee>
+       </center>
+
+        
+       
+    </BODY>
+</html>
