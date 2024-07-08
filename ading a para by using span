@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<title>The span tag</title>
+
+<body>
+    <p><center>
+         <span id="demo" 
+              style="background-color:lightgreen; font-style: italic;
+              font-weight: bold;
+              font-size: 26px;">
+          OPTIMUS PRIME <br>
+
+        </span> <span id="demo" 
+        style="background-color:lightgreen; font-style: italic;
+        font-weight: bold;
+        font-size: 26px;">
+   A Leader of Autoboats and Cybertron
+  </span>
+    </center>
+    </p>
+     <center>
+    
+    
+    <!-- Creating button in javascript -->
+  <button type="button" 
+          onclick="document.getElementById('demo').innerHTML =
+               'OPTIMUS PRIME!!!'">
+    Change Text!
+  </button>
+     </center>   
+       
+  
+</body>
+
+</html>
