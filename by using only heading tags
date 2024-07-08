@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<center>
+    <body>
+        <h1>HTML Header Tag</h1>
+        <h3>HTML Header Tag</h3>
+    <u>
+        ______________________________________________
+    </u>
+        <!--HTML header tag starts here-->
+        <header>
+            <h1>This is the Heading.</h1>
+            <h4>This is the sub-heading.</h4>
+            <b>
+                <p>It is just a Paragraph.</p>
+            </b>
+            
+        </header>
+        <!--HTML header tag ends here-->
+    </body>
+   
+</center>
+ 
+</html>
