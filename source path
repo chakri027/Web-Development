@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Absolute file path</title>
+</head>
+
+<body>
+    <iframe src="https://www.cricbuzz.com/live-cricket-scores/88991/zim-vs-ind-1st-t20i-india-tour-of-zimbabwe-2024"title="cricbuzz" >cricbuzz</iframe>
+    <!--<center>
+        
+        <img src=
+        "https://static.cricbuzz.com/a/img/v1/569x320/i1/c511765/image.jpg"
+                 alt="My Image" 
+                 style="width: 400px" />
+    </center>
+    -->
+</body>
+
+</html>
