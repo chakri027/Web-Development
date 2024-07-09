@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <h1 style = "color:green;" >  
+        WELCOME NS-SOFTWARE
+    </h1> 
+</head> 
+      
+<body style = "text-align:center;">  
+  
+     
+          
+    <h2>Enter Your Pin</h2>  
+      
+    <form> 
+        <label for="submit"> 
+            Enter value 
+        </label> 
+          
+        <input type = "text"> 
+      
+        <input type="Submit" id="submit" 
+            onclick ="msg()" value="Submit">  
+    </form>  
+    <p> 
+        here the input type button 
+        works properly 
+    </p> 
+</body> 
+  
+</html>               
