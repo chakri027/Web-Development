@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       
+       h1{
+            background-color: rgb(116, 154, 176);
+            width: 350px;
+            height: 45px;
+        }
+        h2{
+            background-color: rgb(116, 154, 176) ;
+            width: 150px;
+            height: 35px;
+        }
+    </style>
+   
+    <title>Kalyana Chakravarthi - Form</title>
+   
+</head>
+<body>
+    <center>
+        <header>
+            <h1>Kalyana Chakravarthi</h1>
+           <h3>Web Developer</h3>
+        </header>
+    </center>
+    
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm Chennoju Kalyana Chakravarthi, a passionate fullstack developer but now i'm working on front-end developer with experience in creating dynamic and responsive websites. I specialize in fullstack development, bringing websites with clean and efficient code.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Responsive Web Design</li>
+                <li>Front-End Development</li>
+                <li>UI/UX Design</li>
+                <li>Website Optimization</li>
+                <li>Maintenance and Support</li>
+                <li>Api Designing</li>
+                <li>Web-Api</li>
+                <li>Asp.NET & Asp.net core</li>
+                <li>ADO.NET</li>
+                <li>SQL Server</li>
+                <li>SQL with Stored Procedure</li>
+            </ul>
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:Kalyana.Chakri027@gmail.com">Kalyana.Chakri027@gmail.com</a></p>
+                <p>Phone: <a href="tel:+9440214774">+91-9440214774</a></p>
+            </section>
+            
+    </main>
+    
+</body>
+</html>
