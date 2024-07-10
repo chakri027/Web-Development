@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        {
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <h2>HTML iframe Tag</h2>
+    <p>Content goes here</p>
+
+    <iframe src=
+"https://media.https://www.youtube.com//jsonPrac3.html" 
+            height="300" 
+            width="400" 
+            style="border: none"> 
+    </iframe>
+</body>
+
+</html>
