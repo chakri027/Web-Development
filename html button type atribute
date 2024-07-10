@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Html button type Attribute
+        </title>
+    </head>
+    <body>
+        <h1>Star Gate</h1>
+          
+        <h3>HTML button type Attribute</h3> 
+         
+        <form action="#" method="get">
+            Username: <input type="text" name="uname">
+             
+            <br><br>
+             
+            Password: <input type="password" name="pwd">
+             
+            <br><br>
+             
+            <button type="submit" value="submit">
+                Submit
+            </button>
+             
+            <button type="reset" value="reset">
+                Reset
+            </button>
+        </form>
+    </body>
+</html>
