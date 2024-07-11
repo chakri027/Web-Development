@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML nav Tag with stikeout and quotetag</title>
+    <style>
+        h2{
+            background-color: blueviolet;
+            width: 200px;
+            font-size: 30px;
+        }
+        h1{
+            background-color: lightgreen;
+            width: 400px;
+            font-size: 40px;
+        }
+        h3{
+            background-color: peru;
+            width: 200px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+<center>
+    <h2> <s>HTML nav Tag</s></h2>
+    <h1><q>HTML nav Tag</q></h1>
+</center>
+    <h3> Navigation Buttons</h2>
+
+    <!-- nav tag starts -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Interview</a> |
+        <a href="#">Languages</a> |
+        <a href="#">Data Structure</a> |
+        <a href="#">Algorithm</a>
+    </nav>
+
+    <!-- nav tag ends -->
+
+</body>
+
+</html>
