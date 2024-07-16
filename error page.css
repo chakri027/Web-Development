@@ -1,0 +1,56 @@
+<style>
+.html{
+    min-height: 100%;
+}  
+body{
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #000000;
+    background-image: radial-gradient(#11581E,#041607),
+    url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inconsolata', Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: rgba(128,255,128,0.8);
+    text-shadow: 0 0 1px rgba(51,255,51,1),
+    0 0 2px rgba(255,255,255,0.8);
+}
+.noice{
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: .02;
+}
+:root{
+    --x:0;
+    --y:0;
+    --xp:0;
+    --yp:0;
+    --hue:calc(0+(var(--xp)*500));
+    --bg:hs1(0 0% 10%);
+    --size:100px;
+    --glow:radial-gradient(
+        50% 50% at center,
+        hs1(var(--hue)80% 85%),
+        hs1(var(--hue)80% 70%),
+        transperant
+    )
+    calc((var(--x)*1px)-(var(--size)*0.5))
+    calc((var(--y)*1px)-(var(--size)*0.5))/var(--size)var(--size)no-repeat fixed;
+}
+.button::after{
+    content:"";
+    position: absolute;
+    inset: -4px;
+    filter: blur(20px);
+    border: 4px solid transperent;
+    background: var(--glow);
+    border-radius: 1rem;
+}
+</style>
