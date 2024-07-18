@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <title>
+    cricket
+ </title>
+ <style>
+    h2{
+        font-size: 40px;
+        border: solid;
+        border-color: rgb(255, 0, 238);
+        border-width: 5px;
+        
+    }
+ </style>
+<body>
+    <center>
+        <div>
+            <h2>
+            Cricket Scores
+            </h2> 
+    </div> 
+    Checkout the LiveScores
+    <a href="https://www.cricbuzz.com/"
+       alt="cric buzz">
+      official</a> website for the Cricket.
+    </center>
+     
+</body>
+ 
+</html>
