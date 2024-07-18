@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title of the document</title>
+</head>
+
+<body>
+    <center>
+        <h1 style="color:rgb(31, 97, 31)">
+            All are Allrounders
+        </h1>
+    </center>
+    <section >
+        <h2 style="color:rgb(180, 100, 24)">Full Stack Deevelopment </h2>
+        <h3 style="color:rgb(6, 14, 89)">All Modules</h3>
+        <ul>
+            <li style="color:rgb(16, 133, 142)">Machine learning</li>
+            <li style="color:rgb(16, 133, 142)">DSA</li>
+            <li style="color:rgb(16, 133, 142)">Competitive programming</li>
+            <li style="color:rgb(16, 133, 142)">Web-Development</li>
+            <li style="color:rgb(16, 133, 142)">Java</li>
+        </ul>
+    </section>
+    <section>
+        <h3 style="color:rgb(5, 117, 20)">Books</h3>
+        <p style="color:rgb(142, 16, 119)">Learn Machine learning</p>
+        <p style="color:rgb(142, 16, 119)">Learn DSA</p>
+        <p style="color:rgb(142, 16, 119)">Learn Competitive programming</p>
+        <p style="color:rgb(142, 16, 119)">Learn Web-Development</p>
+        <p style="color:rgb(142, 16, 119)">Learn Java</p>
+
+
+    </section>
+   
+</body>
+
+</html>
