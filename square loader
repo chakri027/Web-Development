@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            square loader aniamtion
+        </title>
+        <style>
+            body{
+                background: #202628;
+            }
+            .center-body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+            }
+            .loader-square{
+                position: relative;
+            }
+            .loader-square::after,
+            .loader-square::before{
+                content: "";
+                width: 80px;
+                height: 80px;
+                box-sizing: border-box;
+                display: block;
+            }
+            .loader-square::after{
+                margin: 0 auto 0 auto;
+                border: 4px solid #03a9f4;
+                animation: rotate2 0.5s infinite ease-in-out;
+            }
+            .loader-square::before{
+                margin: 30px auto 0 auto;
+                border: 4px solid #ff9800;
+                animation: rotate2 0.5s infinite ease-in-out;
+            }
+            @keyframes rotate2{
+                0%{
+                    transform:rotate(0deg)
+                }
+                50%{
+                    margin-top: 15px;
+                }
+                100%{
+                    transform:rotate(-90deg)
+                }
+            }
+            @keyframes rotate1{
+                0%{
+                    transform:rotate(0deg)
+                }
+                50%{
+                    margin-top: 20px;
+                }
+                100%{
+                    transform:rotate(90deg)
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center-body"><div class="loader-square"></div></div>
+    </body>
+</html>
