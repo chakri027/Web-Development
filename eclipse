@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            eclipse
+        </title>
+        <style>
+            body{
+                background-color: #9eb0c8;
+                height: 50vh;
+                display: grid;
+                place-items: center;
+            }
+            .circle{
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                background-color: #ff9540;
+                position: relative;
+                box-shadow: 0 0 10px #ff4500,
+                            0 0 40px #ff4500,
+                            0 0 80px #ff4500;
+            }
+            .circle::after{
+                content: "";
+                position: absolute;
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                background-color: #000;
+                animation: eclipse 10s linear
+                infinite alternate;
+            }
+            @keyframes eclipse{
+                0%{
+                    transform: translate(-50px,50px);
+                    scale(0.9);
+                }
+                50%,75%{
+                    transform: translate(0px,0px)
+                    scale(1.02);
+                    box-shadow: 0 0 10px #f9f3f2, 0 0 80px #c79388;;
+                }
+                100%{
+                    transform: translate(-50px,50px);
+                    scale(0.9);
+                    box-shadow: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="circle"></div>
+    </body>
+</html>
