@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        section tag
+    </title>
+    <style>
+        h1{
+            background-color: rgb(97, 113, 43);
+            border: solid;
+            border-color: lightpink;
+            padding: 10px,10px;
+            position: sticky;
+            top: 0;
+            color: rgb(199, 215, 151);
+            text-align: center;
+            font-size: 50px;
+        }
+        h2{
+            background-color: rgb(203, 228, 121);
+            padding: 10px,10px;
+            background-size: 10px 10px;
+            position: sticky;
+            top: 0;
+            color: rgb(20, 38, 120);
+            text-align: cleft;
+        }
+        p{
+            background-color: aqua;
+            font-size: 20px;
+        }
+        body{
+            background-color: rgb(84, 110, 102);
+        }
+    </style>
+<body>
+
+<h1>The section element</h1>
+
+<section>
+  <h2>WWF History</h2>
+  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+
+<section>
+  <h2>WWF's Symbol</h2>
+  <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section>
+
+</body>
+</html>
