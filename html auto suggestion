@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Html Auto suggestion
+        </title>
+        <style>
+            h1{
+                background-color: aqua;
+            }
+            input{
+                background-color: lightcoral;
+            }
+        </style>
+
+    </head>
+    <body>       
+        <center> <h1>Html Auto suggestion</h1>
+        <input type="text" list="subject">
+        <datalist id="subject">
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="JS"></option>
+            <option value="PHP"></option>
+        </datalist>
+    </center> 
+        
+    </body>
+</html>
