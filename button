@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>HTML Button</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 40px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .blue {
+            background-color: #3daaf3;
+            color: #fff;
+        }
+
+        .green {
+            background-color: #3bda7d;
+            color: #fff;
+        }
+
+        .warnning {
+            background-color: #f08f3b;
+            color: #fff;
+        }
+
+        .red {
+            background-color: #e44331;
+            color: #a4c01b;
+        }
+
+        /* Hover Styles */
+        button:hover {
+            background-color: #2c0606;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src=
+"https://www.cricbuzz.com/" alt="btn">
+    </div>
+    <button class="blue">Primary</button>
+    <button class="green">Secondary</button>
+    <button class="warnning">Warning</button>
+    <button class="red">Danger</button>
+</body>
+
+</html>
