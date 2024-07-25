@@ -1,0 +1,47 @@
+   <!doctype html>
+    <html>
+        <head>
+            <center>
+                <h1 style="background-color: aquamarine;">
+                    Shopping Navbar
+                </h1>
+            </center>
+            <style>
+                ul{
+                    display: flex;
+                    gap: 1rem;
+                    list-style: none;
+                }
+                ul li{
+                    color: rgb(57, 36, 7);
+                    display: grid;
+                    place-content: center;
+                    margin: 0;
+                }
+                .menu::before{
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 2px;
+                    background:rgb(34, 130, 130);
+                    border-radius: 5px;
+                    transform: scaleX(0);
+                    transition: all .5s ease;
+                    bottom: 0;
+                    left: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <!-- (div>ul>(li>a.class)*5) by using this code we can create the given code-->
+            <div>
+                <ul>
+                    <li><a href="" class="menu">HOME</a></li>
+                    <li><a href="" class="menu">Mobile</a></li>
+                    <li><a href="" class="menu">Tablet</a></li>
+                    <li><a href="" class="menu">Laptop</a></li>
+                    <li><a href="" class="menu">Help</a></li>
+                </ul>
+            </div>
+        </body>
+    </html>
