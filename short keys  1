@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            shortcut keys
+        </title>
+        <h1>codes for html</h1>
+        
+    </head>
+    <body>
+         <!--for nesting  div>ul>li given example for nesting in html-->
+        <div>
+            <ul>
+                <li>nesting</li>
+            </ul>
+        </div>
+        <!--for siblings       div+span -->
+        <div></div>
+        <span></span>
+        <!--for multiple elements      ul>li*5-->
+        <ul>
+            <li></li>
+        </ul>
+        <ul>
+            <li></li>
+        </ul>
+        <ul>
+            <li></li>
+        </ul>
+        <ul>
+            <li></li>
+        </ul>
+        <ul>
+            <li></li>
+        </ul>
+        <!--for adding classes and ids   div.class   div#id  -->
+        <div class="class"></div>
+        <div id="id"></div>
+        <!--custom attributes    input[type="text"]-->
+        <input type="text">
+        <!--for groupping   (ul>li*3)-->
+        <ul></ul>
+        <li></li>
+        <ul></ul>
+        <li></li>
+        <ul></ul>
+        <li></li>
+        <!--text content   a{click me}-->
+        <a href="">click me</a>
+        <!--complex structure        div.container>div.row>div.col*3-->
+            <div class="container">
+                <div class="row">
+                    <div class="col">menu</div>
+                    <div class="col">filter</div>
+                    <div class="col">folders</div>
+                </div>
+            </div>
+    </body>
+   
+</html>
