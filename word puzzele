@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #f0f4f8;
+                font-family: "Arial", sans-serif;
+            }
+
+            .container {
+                text-align: center;       
+                padding: 20px;
+                border: 2px solid #333;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+            }
+
+            h1 {
+                margin-top: 0;
+                color: #333;
+            }
+
+            .search-list {
+                color: #d9534f;
+                font-weight: bold;
+            }
+
+            .puzzle {
+                display: grid;
+                grid-template-columns: repeat(7, 1fr);
+                gap: 5px;
+                justify-content: center;
+                margin-top: 20px;
+            }
+
+            .puzzle div {
+                display: contents;
+            }
+
+            .on-mouse-drag {
+                padding: 15px;
+                border: 1px solid #333;
+                cursor: pointer;
+                background-color: #e9ecef;
+                transition: background-color 0.3s;
+                border-radius: 50%;
+                user-select: none;
+            }
+
+            .on-mouse-drag:hover {
+                background-color: #adb5bd;
+            }
+
+            .on-mouse-drag.highlight {
+                background-color: yellow;
+            }
+
+            .on-mouse-drag.found {
+                background-color: lightgreen;
+                color: #000000;
+            }
+
+            footer {
+                margin-top: 20px;
+                font-size: 0.8rem;
+                color: #777;
+            }
+
+        </style>
+    </head>
+    <body>
+        <body>
+            <div class="container">
+                <h1>Word Search Puzzle</h1>
+                <p>Find these words in the puzzle: </p>
+                <p class="search-list">CSS, Syntax, WebGL, React, Grid, SVG</p>
+                <div class="puzzle">
+        
+                    <div>
+                        <span class="on-mouse-drag">S</span>
+                        <span class="on-mouse-drag">E</span>
+                        <span class="on-mouse-drag">S</span>
+                        <span class="on-mouse-drag">A</span>
+                        <span class="on-mouse-drag">M</span>
+                        <span class="on-mouse-drag">L</span>
+                        <span class="on-mouse-drag">D</span>
+                    </div>
+                    <div>
+                        <span class="on-mouse-drag">Y</span>
+                        <span class="on-mouse-drag">R</span>
+                        <span class="on-mouse-drag">W</span>
+                        <span class="on-mouse-drag">E</span>
+                        <span class="on-mouse-drag">B</span>
+                        <span class="on-mouse-drag">G</span>
+                        <span class="on-mouse-drag">L</span>
+                    </div>
+                    <div>
+                        <span class="on-mouse-drag">N</span>
+                        <span class="on-mouse-drag">A</span>
+                        <span class="on-mouse-drag">E</span>
+                        <span class="on-mouse-drag">C</span>
+                        <span class="on-mouse-drag">S</span>
+                        <span class="on-mouse-drag">S</span>  
+                        <span class="on-mouse-drag">I</span>
+                    </div>
+                    <div>
+                        <span class="on-mouse-drag">T</span>
+                        <span class="on-mouse-drag">C</span>
+                        <span class="on-mouse-drag">L</span>
+                        <span class="on-mouse-drag">A</span>
+                        <span class="on-mouse-drag">E</span>
+                        <span class="on-mouse-drag">B</span>
+                        <span class="on-mouse-drag">G</span>
+                    </div>
+                    <div>
+                        <span class="on-mouse-drag">A</span>
+                        <span class="on-mouse-drag">P</span>
+                        <span class="on-mouse-drag">Z</span>
+                        <span class="on-mouse-drag">H</span>
+                        <span class="on-mouse-drag">C</span>
+                        <span class="on-mouse-drag">I</span>
+                        <span class="on-mouse-drag">D</span>
+                    </div>
+                    <div>
+                        <span class="on-mouse-drag">X</span>
+                        <span class="on-mouse-drag">G</span>
+                        <span class="on-mouse-drag">R</span>
+                        <span class="on-mo     use-drag">I</span>
+                        <span class="on-mouse-drag">D</span>
+                        <span class="on-mouse-drag">T</span>
+                        <span class="on-mouse-drag">I</span>
+                    </div>
+                    <div>
+                        <span class="on-mouse-drag">S</span>
+                        <span class="on-mouse-drag">V</span>
+                        <span class="on-mouse-drag">G</span>
+                        <span class="on-mouse-drag">O</span>
+                        <span class="on-mouse-drag">E</span>
+                        <span class="on-mouse-drag">M</span>
+                        <span class="on-mouse-drag">J</span>
+                    </div>
+        
+                </div>
+        </body>
+    </body>
+    <script>
+        $(document).ready(function () {
+        let isDragging = false;
+        let selectedCells = [];
+
+        $(".on-mouse-drag").mousedown(function () {
+            isDragging = true;
+            selectedCells = [];
+            $(this).addClass("highlight");  
+            selectedCells.push($(this));
+        });
+
+        $(".on-mouse-drag").mouseover(function () {
+            if (isDragging) {
+                $(this).addClass("highlight");
+                selectedCells.push($(this));
+            }
+        });
+
+        $(document).mouseup(function () {
+            if (isDragging) {
+                isDragging = false;
+                checkWord();
+                selectedCells = [];
+            }
+        });
+
+        function checkWord() {
+            const word = selectedCells.map((cell) => cell.text()).join("");
+            const words = ["CSS", "SYNTAX", "WEBGL", "REACT", "GRID", "SVG"];
+
+            if (words.includes(word)) {
+                selectedCells.forEach((cell) => cell.addClass("found"));
+            } else {
+                selectedCells.forEach((cell) => cell.removeClass("highlight"));
+            }  
+        }
+    });
+
+    </script>
+</html>
