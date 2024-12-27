@@ -18,9 +18,7 @@
   </span>
     </center>
     </p>
-     <center>
-    
-    
+     <center>   
     <!-- Creating button in javascript -->
   <button type="button" 
           onclick="document.getElementById('demo').innerHTML =
